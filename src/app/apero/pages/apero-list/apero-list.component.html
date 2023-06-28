@@ -1,0 +1,11 @@
+<ul>
+  <li *ngFor="let apero of aperoList">
+    <h3>{{ apero.name }}</h3>
+    <h4>Ingredients :</h4>
+    <ul>
+      <li *ngFor="let ingredientItem of apero.ingredients">
+        {{ ingredientItem }}
+      </li>
+    </ul>
+  </li>
+</ul>
